@@ -8,6 +8,10 @@
   background-color: #EABEE9;
 }
 
+body {
+  background-color: #EABEE9;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -17,16 +21,17 @@ img{
   width: 80%;
 }
 
-.input-container{
+.input-container {
   display: block;
-  width: 20%;
-  margin: 2%;
+  width: fit-content;
+  margin: 2% auto;
 }
 
 h1, #name, h3 {
   text-align: center;
+  margin: 2% auto;
+  padding: 5%;
 }
-
 
 
 h3 {
